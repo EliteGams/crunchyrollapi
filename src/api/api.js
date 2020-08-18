@@ -25,7 +25,7 @@ const {
 
 
 const searchAnime = async (query) => {
-  const res = await cloudscraper.get(`${BASE_URL}/search?from=search&q=${query}`);
+  const res = await cloudscraper.get(`${BASE_URL}search?from=search&q=${query}`);
   const body = await res;
   const $ = cheerio.load(body)
 
@@ -57,7 +57,7 @@ const searchAnime = async (query) => {
 };
 
 const getAnimeListBySeason = async (season, page) => {
-  const res = await cloudscraper.get(`${BASE_URL}/videos/anime/seasons/${season}/ajax_page?pg=${page}`);
+  const res = await cloudscraper.get(`${BASE_URL}videos/anime/seasons/${season}/ajax_page?pg=${page}`);
   const body = await res;
   const $ = cheerio.load(body)
 
@@ -87,7 +87,7 @@ const getAnimeListBySeason = async (season, page) => {
 };
 
 const getAnimeListByGenres = async (genre, page) => {
-  const res = await cloudscraper.get(`${BASE_URL}/videos/anime/genres/${genre}/ajax_page?pg=${page}`);
+  const res = await cloudscraper.get(`${BASE_URL}videos/anime/genres/${genre}/ajax_page?pg=${page}`);
   const body = await res;
   const $ = cheerio.load(body)
 
@@ -117,7 +117,7 @@ const getAnimeListByGenres = async (genre, page) => {
 };
 
 const getAllLiveActionDrama = async () => {
-  const res = await cloudscraper.get(`${BASE_URL}/videos/drama`);
+  const res = await cloudscraper.get(`${BASE_URL}videos/drama`);
   const body = await res;
   const $ = cheerio.load(body);
 
@@ -148,7 +148,7 @@ const getAllLiveActionDrama = async () => {
 
 const getAnimeListByAlphabet = async (letter) => {
   const alpha = letter.toLowerCase();
-  const res = await cloudscraper(`${BASE_URL}/videos/anime/alpha?group=${alpha}`);
+  const res = await cloudscraper(`${BASE_URL}videos/anime/alpha?group=${alpha}`);
   const body = await res;
   const $ = cheerio.load(body)
 
@@ -179,7 +179,7 @@ const getAnimeListByAlphabet = async (letter) => {
 };
 
 const getAllAnimeSeriesUpdated = async (page) => {
-  const res = await cloudscraper(`${BASE_URL}/videos/anime/updated/ajax_page?pg=${page}`);
+  const res = await cloudscraper(`${BASE_URL}videos/anime/updated/ajax_page?pg=${page}`);
   const body = await res;
   const $ = cheerio.load(body)
 
@@ -213,7 +213,7 @@ const getAllAnimeSeriesUpdated = async (page) => {
 const getAllSimulcasts = async (page) => {
   const {
     data
-  } = await axios.get(`${BASE_URL}/videos/anime/simulcasts/ajax_page?pg=${page}`);
+  } = await axios.get(`${BASE_URL}videos/anime/simulcasts/ajax_page?pg=${page}`);
   const $ = cheerio.load(data)
 
   const series = $('li.group-item').map((index, element) => new Promise(async (resolve) => {
@@ -243,7 +243,7 @@ const getAllSimulcasts = async (page) => {
 };
 
 const getAllAnimeSeries = async (page) => {
-  const res = await cloudscraper.get(`${BASE_URL}/videos/anime/popular/ajax_page?pg=${page}`);
+  const res = await cloudscraper.get(`${BASE_URL}videos/anime/popular/ajax_page?pg=${page}`);
   const body = await res;
   const $ = cheerio.load(body)
 
