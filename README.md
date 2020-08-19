@@ -2,10 +2,10 @@
 
 ![node version](https://img.shields.io/badge/node->=10.16.x-brightgreen.svg)
 ![npm version](https://img.shields.io/badge/npm->=6.9.x-brightgreen.svg)
-          <a href="https://github.com/ChrisMichaelPerezSantiago/animeflv/graphs/commit-activity">
+          <a href="https://github.com/EliteGams/animeflv/graphs/commit-activity">
             <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
           </a>
-          <a href="https://github.com/ChrisMichaelPerezSantiago/crunchyrollapi/blob/master/LICENSE">
+          <a href="https://github.com/EliteGams/crunchyrollapi/blob/master/LICENSE">
             <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
           </a>
           <img src="https://img.shields.io/badge/Heroku-deployed-brightgreen.svg" alt="">
@@ -50,7 +50,7 @@ Before cloning the repo **be sure** you have installed:
 Then:
 
 - Choose a folder project in your system and switch in `cd [folder path]`
-- Clone the repo in your folder path `git clone https://github.com/ChrisMichaelPerezSantiago/crunchyrollapi.git`
+- Clone the repo in your folder path `git clone https://github.com/EliteGams/crunchyrollapi.git`
 
 ---
 
