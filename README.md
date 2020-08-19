@@ -19,7 +19,7 @@
  <a href="https://nodei.co/npm/crunchyrollapi/"><img src="https://nodei.co/npm/crunchyrollapi.png"></a>
 
 
-> Best Crunchyroll API to extract data in spanish from all its catalog and its respective videos with subtitles.
+> Best Crunchyroll API to extract data in english from all its catalog and its respective videos with subtitles.
 
 ---
 
