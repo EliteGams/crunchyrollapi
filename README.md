@@ -2,7 +2,7 @@
 
 ![node version](https://img.shields.io/badge/node->=10.16.x-brightgreen.svg)
 ![npm version](https://img.shields.io/badge/npm->=6.9.x-brightgreen.svg)
-          <a href="https://github.com/EliteGams/animeflv/graphs/commit-activity">
+          <a href="https://github.com/EliteGams/crunchyrollapi/graphs/commit-activity">
             <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
           </a>
           <a href="https://github.com/EliteGams/crunchyrollapi/blob/master/LICENSE">
@@ -25,7 +25,7 @@
 
 
 ## 📖 API Documentation
-You can access all the API documentation from the following url [docs](https://crunchyroll-docs.chrismichael.now.sh/)
+You can access all the API documentation from the following url [docs](https://crunchyroll-doc.vercel.app/)
 
 
 ## :rocket: Custom Crunchyroll API Link
